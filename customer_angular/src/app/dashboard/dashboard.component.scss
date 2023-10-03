@@ -1,0 +1,345 @@
+body {
+    background-image: url("https://img.wallpapersafari.com/desktop/1600/900/22/71/jIWVNu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .profile {
+    border-radius: 10px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 280px;
+    margin-left: 100px;
+    padding: 0;
+    transition: all 0.5s;
+    cursor: pointer;  
+  
+  }
+  
+  .profile span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .profile span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .profile:hover span {
+    padding-right: 25px;
+  }
+  
+  .profile:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  ///////////////////////////////////////////////////////////////////////////////////////
+  
+  .invoice {
+    border-radius: 10px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
+    padding: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .invoice span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .invoice span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .invoice:hover span {
+    padding-right: 25px;
+  }
+  
+  .invoice:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  ////////////////////////////////////////////////////////////////////////////////////////
+  
+  .inq {
+    border-radius: 10px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
+    padding: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .inq span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .inq span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .inq:hover span {
+    padding-right: 25px;
+  }
+  
+  .inq:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  //////////////////////////////////////////////////////////////////////////////
+  
+  .sod {
+    border-radius: 10px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
+    padding: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .sod span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .sod span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .sod:hover span {
+    padding-right: 25px;
+  }
+  
+  .sod:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  ///////////////////////////////////////////////////////////////////////////////
+  
+  .lod {
+    border-radius: 10px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 280px;
+    margin-left: 100px;
+    padding: 0;
+    position: fixed;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .lod span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .lod span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .lod:hover span {
+    padding-right: 25px;
+  }
+  
+  .lod:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  /////////////////////////////////////////////////////////////////////////////
+  
+
+  .invoice {
+    border-radius: 10px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 800px;
+    padding: 0;
+    position: fixed;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .invoice span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .invoice span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .invoice:hover span {
+    padding-right: 25px;
+  }
+  
+  .invoice:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  //////////////////////////////////////////////////
+  
+  .pay {
+    border-radius: 10px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 1100px;
+    position: fixed;
+    padding: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .pay span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .pay span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .pay:hover span {
+    padding-right: 25px;
+  }
+  
+  .pay:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  ///////////////////////////////////////////////////////////////////////////
+  
+  .cd {
+    border-radius: 10px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 1400px;
+    padding: 0;
+    position: fixed;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .cd span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .cd span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .cd:hover span {
+    padding-right: 25px;
+  }
+  
+  .cd:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

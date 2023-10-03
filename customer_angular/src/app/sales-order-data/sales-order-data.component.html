@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+
+<body>
+	<div class="container">
+		<h1> <b> <u>SALES ORDER DATA </u></b></h1>
+
+		<div class="search">
+			<label style="color: white;"> <b>Search By :-</b></label>
+			<input class="search-box" type="text" name="search" [(ngModel)]="searchtext"
+				placeholder="Enter the field to search">
+		</div>
+
+		<div class="responsive-table">
+			<table>
+				<th *ngFor="let column of headers" class="table-header" style="white-space: nowrap">
+					{{column}}&nbsp; <i (click)="sort('id')" class='fa fa-sort'></i>
+				</th>
+				<tr *ngFor="let row of SALES_ORDER | orderBy: key: reverse | filter: searchtext" class="table-row" style="color: white;">
+					<td *ngFor="let column of names">
+						{{row[column]}}
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+	<body>
+		<h1>SALES OREDR DETAILS</h1>
+		<table id="users">
+			<tr>
+				<th *ngFor = "let column of headers">
+					{{column}}
+				</th>
+			</tr>
+			<tr *ngFor = "let row of SALES_ORDER">
+				<td *ngFor = "let column of names">
+					{{row[column]}}
+				</td>
+			</tr>					
+		</table>
+	</body>
+</html> -->

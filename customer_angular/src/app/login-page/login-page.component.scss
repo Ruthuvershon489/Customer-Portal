@@ -1,0 +1,30 @@
+.form {
+  padding-top: 350px;
+  padding-left: 1200px;
+  text-align: center;
+}
+
+.top {
+  padding-left: 1300px;
+}
+
+.username {
+  width: 400px;
+}
+
+.password {
+  width: 400px;
+}
+
+.card{
+  width:fit-content;
+  background-color:ivory;
+  border-radius: 60px 30px;
+  opacity: 90%;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}

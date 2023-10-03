@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+</head>
+
+<body>
+	<br>
+	<div class="container">
+        <h1> <b> <u>CREDIT MEMO</u></b></h1>
+
+		<div class="search">
+			<label style="color: white;"> <b>Search By :-</b></label>
+			<input class="search-box" type="text" name="search" [(ngModel)]="searchtext1"
+				placeholder="Enter the field to search">
+		</div>
+
+        <div class="responsive-table">
+	            <table>
+		            <th *ngFor = "let column of CREDIT_headers" class="table-header" style="white-space: nowrap">
+			            {{column}}&nbsp; <i (click)="sort1('id1')" class='fa fa-sort'></i>
+		            </th>
+ 	                <tr *ngFor = "let row of CREDIT | orderBy: key1: reverse1 | filter: searchtext1" class="table-row" style="color: white;">
+		                <td *ngFor = "let column of CREDIT_names">
+			                {{row[column]}}
+		                </td>
+	                </tr>
+                </table>
+        </div>
+
+		<br><br>
+		
+		<h1> <b> <u>DEBIT MEMO</u></b></h1>
+
+		<div class="search">
+			<label style="color: white;"> <b>Search By :-</b></label>
+			<input class="search-box" type="text" name="search" [(ngModel)]="searchtext2"
+				placeholder="Enter the field to search">
+		</div>
+
+		<div class="responsive-table">
+			<table>
+				<th *ngFor = "let column of DEBIT_headers" class="table-header" style="white-space: nowrap">
+					{{column}}&nbsp; <i (click)="sort2('id2')" class='fa fa-sort'></i>
+				</th>
+				 <tr *ngFor = "let row of DEBIT | orderBy: key2: reverse2 | filter: searchtext2" class="table-row" style="color: white;">
+					<td *ngFor = "let column of DEBIT_names">
+						{{row[column]}}
+					</td>
+				</tr>
+			</table>
+	</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+	<body>
+		<h1>CREDIT MEMO</h1>
+		<table id="users">
+			<tr>
+				<th *ngFor = "let column of CREDIT_headers">
+					{{column}}
+				</th>
+			</tr>
+			<tr *ngFor = "let row of CREDIT">
+				<td *ngFor = "let column of CREDIT_names">
+					{{row[column]}}
+				</td>
+			</tr>					
+		</table>
+		<h1>DEBIT MEMO</h1>
+		<table id="users">
+			<tr>
+				<th *ngFor = "let column of DEBIT_headers">
+					{{column}}
+				</th>
+			</tr>
+			<tr *ngFor = "let row of DEBIT">
+				<td *ngFor = "let column of DEBIT_names">
+					{{row[column]}}
+				</td>
+			</tr>					
+		</table>
+	</body>
+</html> -->

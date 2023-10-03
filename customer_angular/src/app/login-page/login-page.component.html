@@ -1,0 +1,29 @@
+<body>
+  <mat-toolbar color="primary">
+    <h1> <b><span class="light">CUSTOMER PORTAL</span></b></h1>
+    <div class="top">
+      <a mat-button [routerLink]="['/customer-portal/about']" routerLinkActive="active">ABOUT US</a>
+      <a mat-button [routerLink]="['/customer-portal/contact']" routerLinkActive="active">CONTACT</a>
+    </div>
+  </mat-toolbar>
+
+  <form class="form">
+    <mat-card class="card">
+      <h1><b><i>  Welcome Back :) </i></b></h1>
+      <br>
+      <mat-form-field class="username" appearance="fill">
+      <mat-label>Username</mat-label>
+      <input matInput placeholder="Enter your username" name="username" [(ngModel)]= "username">
+      </mat-form-field>
+      <br>
+      <mat-form-field class="password" appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput placeholder="Enter your password" value="" name="password" type="password" [(ngModel)]= "password">
+      </mat-form-field>
+      <br>
+      <button type="submit" class="login" mat-raised-button color="primary" (click)="onSubmit()"> Login </button>
+      <br>
+      <a mat-button [routerLink]="['/customer-portal/contact']" routerLinkActive="active"> Forget password?</a>
+    </mat-card>
+  </form>
+</body>

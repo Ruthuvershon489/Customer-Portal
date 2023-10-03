@@ -1,0 +1,168 @@
+<body><article class="cssui-usercard">
+	<div class="cssui-usercard__body">
+		<header class="cssui-usercard__header">
+			<img src="https://cdn3.iconfinder.com/data/icons/human-resource-management/500/human8-1024.png" class="cssui-usercard__avatar" alt="Avatar">
+			<div class="cssui-usercard__header-info">
+				<h3><span class="cssui-usercard__name-label">{{name1}} </span></h3>
+				<span class="cssui-usercard__post">Customer Profile</span>
+			</div>
+		</header>
+		<div class="cssui-usercard__content">
+			<div class="cssui-slider">
+
+				<!-- the control elements of slider -->
+
+				<input id="slide1" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls" checked autofocus>
+				<label for="slide1" class="cssui-slider__control cssui-usercard__control"></label>
+				<input id="slide2" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls">
+				<label for="slide2" class="cssui-slider__control cssui-usercard__control"></label>
+				<!-- <input id="slide3" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls">
+				<label for="slide3" class="cssui-slider__control cssui-usercard__control"></label> -->
+
+				<div class="cssui-slider__slides">
+
+					<!-- first slide -->
+
+					<div class="cssui-slider__slide">
+						<div class="cssui-usercard__stats">
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-earth"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">Alias Name</span>
+									<span class="cssui-stats__value">{{name2}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-earth"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">Customer No</span>
+									<span class="cssui-stats__value">{{customer}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">Address</span>
+									<span class="cssui-stats__value">{{address}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-calendar"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">City</span>
+									<span class="cssui-stats__value">{{city}}</span>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+					<!-- second slide -->
+
+					<div class="cssui-slider__slide">
+						<div class="cssui-usercard__stats">
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-man-woman"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">Postal Code</span>
+									<span class="cssui-stats__value">{{postal_code}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-html"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">Region</span>
+									<span class="cssui-stats__value">{{region}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-vue"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">Country</span>
+									<span class="cssui-stats__value">{{country}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-angular"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">Telephone</span>
+									<span class="cssui-stats__value">{{telephone}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="cssui-usercard__footer">
+	</footer>
+</article>
+</body>
+
+
+
+<!-- <body>
+<div class="container">
+	<br><br>
+	<h2> <b>CUSTOMER PROFILE </b></h2> <br>
+	<ul class="responsive-table">
+	  <li class="table-header">
+		<tr>
+			<th>CUSTOMER</th>
+			<td>{{customer}}</td>
+		</tr>
+	  </li>
+
+	  <li class="table-row">
+		<tr>
+			<th>NAME</th>
+			<td >{{name}}</td>
+		</tr>
+	  </li>
+
+	  <li class="table-row">
+		<tr>
+			<th>ADDRESS</th>
+			<td>{{address}}</td>
+		</tr>
+	  </li>
+
+	  <li class="table-row">
+		<tr>
+			<th>CITY</th>
+			<td>{{city}}</td>
+		</tr>
+	  </li>
+
+	  <li class="table-row">
+		<tr>
+			<th>POSTAL CODE</th>
+			<td>{{postal_code}}</td>
+		</tr>
+	  </li>
+
+	  <li class="table-row">
+		<tr>
+			<th>REGION</th>
+			<td>{{region}}</td>
+		</tr>
+	  </li>
+
+	  <li class="table-row">
+		<tr>
+			<th>COUNTRY</th>
+			<td>{{country}}</td>
+		</tr>
+	  </li>
+
+	  <li class="table-row">
+		<tr>
+			<th>TELEPHONE</th>
+			<td>{{telephone}}</td>
+		</tr>
+	  </li>
+
+	</ul>
+  </div>
+</body> -->
